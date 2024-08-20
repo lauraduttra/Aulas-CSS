@@ -1,0 +1,29 @@
+/* alterando cor por nome */
+.nome{
+    color: navy;
+    background-color: burlywood;
+}
+
+/* alterando cor por hexadecimal */
+.hexadecimal{
+    color:#ca779d;
+    background-color: #8b1b41;
+}
+
+/* alterando cor por rgba */
+.rgba{
+    color: rgba(6, 153, 106, 0.88);
+    background-color: rgba(6, 153, 106, 0.19);
+}
+
+/* alterando a segunda página */
+.titulo-background{
+    background-color: grey;
+}
+
+.div-background{
+    background-image: url(img.jpg);
+    height: 600px;
+    width: 800;
+
+}
