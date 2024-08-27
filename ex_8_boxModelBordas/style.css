@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    background-color: black;
+    /* espaçamento depois do conteúdo */
+    padding: 30px 30px;
+    /* linha que fica pós op padding*/
+    border: 10px dotted gray;
+    border-left: 15px dotted aliceblue;
+    border-right-style: double;
+    border-radius: 100px;
+    /* adicionando o espaço */
+    margin: 50px 50px;
+}
