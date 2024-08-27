@@ -1,0 +1,10 @@
+.posicao{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-bottom: 3px dashed gainsboro;
+}
+
+.static{
+    border-right: 5px solid brown;
+}
