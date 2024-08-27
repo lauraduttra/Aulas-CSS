@@ -1,0 +1,15 @@
+.position{
+    width: 200px;
+    height: 100px;
+    background-color: gold;
+    border-bottom: 2px darkgoldenrod;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    background-color: gold;
+    top: 10px;
+    left:10px;
+}
