@@ -1,0 +1,59 @@
+/* aula -> position
+static: flow html; top, left, right e bottom não alteram a posição.
+relative: flow html; top, left, right e bottom ALTERAM a posição.
+°absolute°: posiciona em qualquer lugar, respeitando local onde está inserido.
+°fixed°:posiciona em qualquer lugar, respeitando o tamanho de exibição html
+°sticky°:flow do html, e quando movimenta o scroll da tela ele deixa fixado em determinado ponto.
+*/
+
+.position{
+    /*Significa posição em português. O posicionamento padrão de todo elemento no HTML é estático, ou seja, possui o valor position: static , mesmo que este valor não tenha sido declarado.*/
+    width: 200px;
+    height: 500px;
+    background-color: lightpink;
+    border-bottom: 2px rosybrown;
+}
+.static{
+    /*Os métodos estáticos funcionam como abstrações para trechos de programas. Podemos pegar um trecho de programa e dar um nome significativo para ele. No ponto que o programador deseja executar aquele trecho de programa ele invoca ou chama aquele trecho.*/
+    position: static;
+}
+.relative{
+    /*Relative. O position relative, que em português significa relativo, é usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele. Ao aplicarmos essa propriedade em um elemento, ele não muda de posição, pois já vai estar posicionado em sua posição de referência.*/
+    position: relative;
+    background-color:thistle;
+    top: 10px;
+    left:10px;
+}
+.absolute{
+    /*Absolute. Essa propriedade position CSS é usada para que o elemento da página parta do ponto superior esquerdo a outros elementos. Ou seja, ela determina o elemento “pai” e os elementos “parentes”.*/
+    position: absolute;
+    background-color:palevioletred;
+    top: 0;
+    right:0;
+}
+.mini-div{
+    /*O elemento de divisão **HTML <div> **é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos.*/
+    width: 30px;
+    height: 30px;
+    border: 2px dotted mediumvioletred;
+    top:0;
+    left:0;
+}
+.fixed{
+    /*Isso significa que, mesmo que naveguemos na página para cima e para baixo, o elemento ficará fixo na mesma posição sempre. Esse tipo de posicionamento é especialmente útil em casos de menu, para que o usuário não perca o contato com a navegação enquanto lê uma notícia, por exemplo.*/
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    right: 50px;
+    bottom: 50px;
+}
+.sticky{
+    /*Position: sticky é uma mistura de position: relative e position: fixed . Ele age posicionado relativamente até determinado ponto de rolagem. Então, ele age como um elemento com position: fixed . Não se preocupe se você não entende o que isso significa.*/
+    width: 600px;
+    height: 50px;
+    background-color: thistle;
+    position: sticky;
+    left: 200px;
+    top: 0px;
+}
