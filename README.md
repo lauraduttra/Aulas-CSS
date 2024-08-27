@@ -13,3 +13,4 @@
 - arquivo css position absolute
 - arquivo css position fixed
 - arquivo css position sticky
+- arquivo css media queries
