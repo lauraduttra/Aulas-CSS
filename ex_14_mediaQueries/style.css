@@ -1,0 +1,22 @@
+body{
+    background-color:khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* telas desktop mínimo 1024px */
+@media screen and (min-width: 1024){
+    h1{font-size: 48px;color: brown;}
+    p{font-size: 24px;}
+}
+
+/* telas tablet mínima 768px até 1023px */
+@media (min-width: 768px) and (max-width: 1023px){
+    h1{font-size: 768px;}
+    p{font-size: 24px;}
+    body{background-color: firebrick;}
+
+/* telas mobile máximo 768px */
+@media screen and (max-width: 767px){
+    h1{font-size: 20px;}
+    p{font-size: 20px;}
+    body{background-color: khaki;}
+}
