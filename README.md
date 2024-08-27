@@ -4,4 +4,11 @@
 - arquivo css externo
 - arquivo css inline
 - arquivo css usando class e id
-- arquivo css de modo e cores
+- arquivo css modo e cores
+- arquivo css animação
+- arquivo css animação times
+- arquivo css model bordas
+- arquivo css position static
+- arquivo css position relative
+- arquivo css position absolute
+- arquivo css position fixed
